@@ -1,0 +1,41 @@
+.nav-own-style{
+    opacity: 0.80;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.marry{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 400%;
+    color: black; 
+    text-shadow: 4px 4px 16px #6cf0e5; 
+    
+}
+.footer{
+    padding: 10%;
+    background-color: rgb(48, 46, 46);
+}
+.footer1{
+    height: 10%;
+    width: 50%;
+}
+.get-in{
+    text-align: center;
+    color: cornflowerblue;
+}
+.touch2{
+    color: wheat;
+}
+/* album css */
+.album{
+    height: 200vh;
+}
+.sizing img{
+    height: 80%;
+    width: 100%;
+    margin-top: 35%;
+}
+.con2 {
+
+    margin-top: 30%;
+}

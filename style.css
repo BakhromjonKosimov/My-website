@@ -1,0 +1,183 @@
+.nav-own-style{
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: rgb(107, 240, 29) !important;
+}
+
+.marry{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 300%;
+    color: black; 
+    text-shadow: 4px 4px 16px #6cf0e5; 
+}
+.orqa{
+    background-image: url(photo/back-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bahrom{
+    font-family: 'Mrs Saint Delafield', cursive;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 600%;
+    color: aquamarine;
+    animation-name: kosimov;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes kosimov{
+  
+   0%{color: aquamarine; left: 20%;}
+   25%{color: rgb(228, 120, 120); }
+   50%{color: chartreuse; left: 30%;}
+   75%{color: wheat;  }
+   100%{color: aquamarine;left: 20%;}
+}
+.bahor{
+    font-family: 'Mrs Saint Delafield', cursive;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-size: 200%;
+    text-shadow: 2px 2px 8px #6cf0e5; 
+    color: aquamarine;
+    animation-name: kosimov;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+.feeling{
+    font-family: 'Mrs Saint Delafield', cursive;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    font-size: 700%;
+    text-shadow: 2px 2px 8px #6cf0e5; 
+    color: aquamarine;
+    animation-name: feeling;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes feeling{
+  
+    0%{color: aquamarine; }
+    25%{color: rgb(197, 120, 228); }
+    50%{color: chartreuse; }
+    75%{color: rgb(140, 223, 177);  }
+    100%{color: aquamarine;}
+ }
+ .story{
+    position: absolute;
+    top: 80%;
+    left: 60%; 
+    color: blanchedalmond;
+    border-radius: 0 20% 0 20%;
+ }
+ .footer{
+     padding: 5%;
+     background-color: rgb(48, 46, 46);
+ }
+ .card-img-top2{
+     width: 100px;
+     height: 70px;
+ }
+ .footer1{
+     height: 10%;
+     width: 50%;
+ }
+ .get-in{
+     text-align: center;
+     color: cornflowerblue;
+ }
+ .touch2{
+     color: wheat;
+ }
+ .album{
+    height: 200vh;
+}
+.sizing img{
+    height: 70%;
+    width: 90%;
+    margin-top: 35%;
+}
+.con2 {
+
+    margin-top: 30%;
+}
+ /* About section */
+ .about-page{
+    height: 160vh;
+    
+
+ }
+ .card-img-top{
+    width: 300px;
+    height: 200px;
+    
+ }
+ .about-us{
+     text-shadow: #6cf0e5;
+     text-align: center;
+     color: cadetblue;
+ }
+ .borderlar{
+     padding: 5%;
+     border-radius: 20% 0 20% 0;
+        
+ }
+ .wedding-image{
+     width: 100%;
+     height: 100%;
+     border-radius: 20% 0 20% 0;
+     margin: 15px;
+    
+
+ }
+ .animated{
+     animation-name: story-animated;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+ }
+ @keyframes story-animated{
+     0%{color: #6cf0e5;}
+     25%{color: red;}
+     50%{color: hotpink;}
+     75%{color: lawngreen;}
+     90%{color: yellow;}
+     100%{color: lightblue;}
+ }
+ 
+ body{
+     background-color: rgb(169, 247, 243);
+ }
+ .day-wonderful{
+    font-family: 'Mrs Saint Delafield', cursive;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 700%;
+    text-shadow: 2px 2px 8px #6cf0e5; 
+    color: aquamarine;
+    animation-name: feeling;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes day-wonderful{
+  
+    0%{color: rgb(5, 83, 57); }
+    25%{color: rgb(197, 120, 228); }
+    50%{color: rgb(238, 255, 0); }
+    75%{color: rgb(11, 7, 243);  }
+    100%{color: rgb(34, 228, 8);}
+ }
+ .contact-page1{
+     background-color: rgb(121, 103, 103);
+ }
+ .contact{
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: wheat;
+ }
